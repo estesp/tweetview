@@ -1,0 +1,107 @@
+@import url("serviceSpec.css");
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #F1F1F1;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+h1 {
+	text-align: center;
+}
+
+.htheader {
+  margin-left: 20px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: -10px;
+}
+
+.hashtag {
+  border-radius: 4px;
+  color: #3b4b54;
+  background-color: #dfe6eb;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 13px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  width: 350px;
+}
+
+.htname {
+    font-weight: bold;
+    font-size: 1.4em;
+    font-style: italic;
+    color: #727272;
+    width: 50%;
+}
+
+.htcount {
+    font-family: "Georgia", "Times New Roman",serif;
+    font-weight: bold;
+    font-size: 2.4em;
+    font-style: italic;
+    color: darkslategray;
+    width: 50%;
+}
+
+#htreport {
+    position: absolute;
+    left: 600px;
+    margin-left: 20px;
+}
+
+#servinfo {
+   font-family: "Consolas", "Console", "Andale Mono", "Courier New", "Courier", monospace;
+   font-weight: bold;
+   left: 100px;
+   position: absolute;
+   width: 500px;
+   padding: 8px;
+   background-color: #1c1c1c;
+   border-radius: 4px;
+   margin-top: 5px;
+   border-color: #949494;
+   color: lightgrey;
+}
+
+.throbber-div {
+  display: none;
+  height: 48px;
+  position: relative;
+}
+
+img.ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+    display: block;
+}
+
+.errorinfo {
+  color: #949494;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: .5em;
+  font-style: normal;
+  text-align: left;
+  padding: 8px;
+  margin-top: 10px;
+}
